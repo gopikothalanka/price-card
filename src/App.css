@@ -1,0 +1,12 @@
+
+.heading{
+  margin: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

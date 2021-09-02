@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  transition: all 0.3s ease;
+ 
+}
+
+body{
+  display: flex;
+  font-size: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FFFFFF;
+}
+
+
+.Free,.Basic,.Pro,.Business{
+  display: grid;
+  grid-template-areas:'plan price' 'plan list' 'plan Button' ;
+  background-color: #F4F4F4;
+  color: #525252;
+  margin-left: 1rem;
+}
+
+.link1{
+  background-color: #EEEEEE;
+  padding: 2rem;
+}
+.price{
+  grid-area:price;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+h2{
+  grid-area:plan;
+  word-wrap:break-word;
+  width: 3rem;
+  text-align: center;
+  padding: 1rem;
+  text-transform:uppercase;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+.List{
+  grid-area:list;
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+.item1{
+  padding: 1rem;
+  background-color: #EEEEEE;
+  min-width: 260.6px;
+}
+.item2{
+  padding: 1rem;
+  background-color: #FAFAFA;
+  min-width: 260.6px;
+
+}
+.Button{
+  grid-area:Button;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  color: #FFFFFF;
+
+}
+ a{
+ min-width: 200px;
+ text-align: center;
+ padding: 1rem;
+ color: #FFFFFF;
+ font-size: 1rem;
+ text-decoration: none;
+ font-family: inherit;
+ font-weight: 900;
+}
+
+
+.Free h2{
+  background-image: linear-gradient(to bottom, #9fc25d, #a6c863, #accf69, #b3d570, #badc76);
+}
+.Free a{
+  background-image: linear-gradient(to top, #9fc25d, #a6c863, #accf69, #b3d570, #badc76);
+
+}
+
+.Basic h2{
+  background-image: linear-gradient(to bottom, #3fa7cd, #48b0d5, #50b8de, #59c1e6, #61caef);
+}
+.Basic a{
+  background-image: linear-gradient(to top, #3fa7cd, #48b0d5, #50b8de, #59c1e6, #61caef);
+}
+.Pro h2{
+  background-image: linear-gradient(to bottom, #e69741, #e9a145, #ecab49, #eeb44e, #f0be54);
+}
+.Pro a{
+  background-image: linear-gradient(to top, #e69741, #e9a145, #ecab49, #eeb44e, #f0be54);
+
+}
+.Business h2{
+  background-image: linear-gradient(to bottom, #b22828, #be2525, #ca2222, #d51e1e, #e11919);
+}
+.Business a{
+  background-image: linear-gradient(to top, #b22828, #be2525, #ca2222, #d51e1e, #e11919);
+ 
+}
+.Free:hover{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transform: scale(1.1);
+}
+.Basic:hover{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transform: scale(1.1);
+}
+.Pro:hover{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transform: scale(1.1);
+}
+.Business:hover{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transform: scale(1.1);
+}
